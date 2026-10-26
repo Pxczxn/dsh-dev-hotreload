@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Dev Hot Reload (dsh-dev-hotreload)",
+    "description": "Watches locally linked plugin and preset sources and triggers DSH's official profile reconciliation on save, so your dev packages hot-swap in the running harness."
+  }
+}

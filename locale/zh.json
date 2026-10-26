@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "开发热重载 (dsh-dev-hotreload)",
+    "description": "监视本地 link 安装的插件与预设源码，保存后触发 DSH 官方的 profile 重组合，让正在运行的宿主热替换你的开发包。"
+  }
+}

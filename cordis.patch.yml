@@ -1,0 +1,9 @@
+# dsh-dev-hotreload — bundle 层：注册「保存即热重载」桥。
+#
+# 默认零配置：插件会自动发现当前 profile 里所有 `link:` / `file:` 依赖
+# 指向的本地源码目录，并轻触 profile 的 cordis.patch.yml 触发官方重组合。
+# 要改成显式目录或关闭自动发现，在 profile 的 cordis.patch.yml 里用同 id
+# 覆盖 config（配置会整体替换）。
+- insert:
+    - id: dev-hotreload
+      name: dsh-dev-hotreload
